@@ -1,0 +1,25 @@
+* Visualize French postal code data in Jupyter lab
+This will read a shape file containing data for the French postal codes and display data visually in plots and maps.
+
+The lab has also been exported as an =html= file that you can download and view in your browser.
+
+** Getting started
+- This first step is optional, skip it if not using nix and already have python and pip installed
+#+begin_src bash :noeval
+nix develop
+#+end_src
+- Create and activate python virtual env:
+#+begin_src bash :noeval
+python -m venv .venv
+source .venv/bin/activate
+#+end_src
+- Install requirements using pip:
+#+begin_src bash :noeval
+pip install -r requirements.txt
+#+end_src
+
+** Run the lab
+#+begin_src bash :noeval
+jupyter lab
+#+end_src
+This will open the lab in a new browser window for you.
